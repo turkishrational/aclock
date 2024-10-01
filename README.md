@@ -15,21 +15,29 @@
 
 ## Samples:
    ACLOCK.COM : FPU based.
+   
           MSDOS program written by Leonardo Ono. FPU (math instructions) based.
           
    ACLOCK.PRG : FPU based.
+   
           TRDOS 386 adaptation of ACLOCK.COM. FPU based.
+          
           Video and Keyboard functions (partially) are as (ROMBIOS type) interrupt service. 
           
    ACLOCK1.PRG : FPU based.
+   
           Video and keyboard functions are as INT 40h (TRDOS 386 kernel service) calls.
           
    ACLOCK2.PRG : Sine/Cosine table based.
+   
           ACLOCK.PRG modified as Sine/Cosine table based. Colored clock (CGA colors.)
+          
           (without FPU instructions) -BEEP feaure (after pressing SPACEBAR key)-
+          
           (ROMBIOS type interrupts. INT 32h == ROMBIOS INT 16h. INT 31h == ROMBIOS INT 10h.) 
           
    ACLOCK3.PRG:
+   
           Modified ACLOCK2.PRG with INT 40h calls instead of (ROMBIOS type) interrupts.
 
    Erdogan Tan - October 2024
