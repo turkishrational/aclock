@@ -5,13 +5,19 @@
          ASM Source code files in NASM format/syntax
          
 .PRG files:
-         TRDOS 386 program files
+         TRDOS 386 program files.
          
 .COM files:
          MSDOS COM (program) files.
          
 .ASM files:
          ASM source code for MSDOS clock program.
+
+a_test.img:
+         1.44 MB bootable floppy disk image for TRDOS 386 test.
+
+trdos386_aclock_qemu.zip:
+         Sample QEMU emulator package to test/try.
 
 ## Samples:
    ACLOCK.COM : FPU based.
