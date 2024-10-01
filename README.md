@@ -1,11 +1,11 @@
-** ANALOG CLOCK DEMOs FOR TRDOS 386 **
+## ANALOG CLOCK DEMOs FOR TRDOS 386
 
 .s files: ASM Source code files in NASM format/syntax
 .PRG files: TRDOS 386 program files
 .COM files: MSDOS COM (program) files.
 .ASM files: ASM source code for MSDOS clock program.
 
-Samples:
+## Samples:
    ACLOCK.COM : MSDOS program written by Leonardo Ono. FPU (math instructions) based.
    ACLOCK.PRG : TRDOS 386 adaptation of ACLOCK.COM. FPU based.
        Video and Keyboard functions (partially) are as (ROMBIOS type) interrupt service. 
