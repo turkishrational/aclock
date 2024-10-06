@@ -1,5 +1,5 @@
 ## ANALOG CLOCK DEMOs FOR TRDOS 386
-(Display Clock in Video MODE 13h)
+(Display Clock in Video MODE 13h) ((+ VESA VBE mode 105h))
 
 .s files: 
          ASM Source code files in NASM format/syntax
